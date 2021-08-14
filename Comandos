@@ -1,0 +1,55 @@
+clear
+  #Limpiar Terminal
+pwd
+  #Me permite conocer en la ruta en la que estoy
+sudo apt search
+  #Busca paquetes
+sudo apt install _____
+  #Instalar paquetes
+mkdir _____
+  #crear una nueva carpeta
+ip addr
+  #Conocer el ip address de la maquina
+sudo passwd root
+  #Cambiar el password del root
+ sudo su
+  #Entrar al root
+ exit
+  #salir del root
+cd _____
+  #cambiar la direccion de la ruta
+cd ..
+  #Nos devuelve a la ruta en la que estabamos
+ctrl + C
+  #Termina el proceso que se este corriendo en terminal
+touch archivoacrear.txt
+  #Permite crear un archivo desde 0
+cat > archivoacrear
+  #Permite crear un archivo y editarlo desde terminal. Para cerrarlo presionar ctrl+D
+nano archivoparaabrir.txt
+  #Permite abrir un archivo y modificarlo
+more archivoamirar.txt
+  #Permite ver el contenido de un archivo si necesidad de entrar a edicion
+cat/etc/passwd 
+  #archivo que contiene todos los usuarios del sistema
+ps -aux
+  #Lista de los procesos que estan corriendo
+top
+  #Ver lista de procesos que se estan corriendo en tiempo real y es mas interactivo. Para salir presionar ctrl+C
+pstree
+  #Ver los procesos en tipo arbol
+grep _____
+  #buscar texto en cualquiera de los archivos
+kill -9 numerodeproceso
+  #"mata" cualquier proceso
+pkill nombredelproceso
+  #detiene el proceso utilizando el nombre
+chmod
+  #cambiar permisos de una carpeta o archivo
+ chown
+  #cambiar el usuario de un documento o carpeta
+history
+  #ver el historial de comandos
+
+
+
