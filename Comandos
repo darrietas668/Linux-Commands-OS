@@ -1,3 +1,4 @@
+--------------------------------------------------------- *Basicos* --------------------------------------------------------- 
 clear
   #Limpiar Terminal
 pwd
@@ -20,6 +21,8 @@ cd _____
   #cambiar la direccion de la ruta
 cd ..
   #Nos devuelve a la ruta en la que estabamos
+whoami
+  #Conocer el usuario actual en el que se esta trabajando
 ctrl + C
   #Termina el proceso que se este corriendo en terminal
 touch archivoacrear.txt
@@ -29,6 +32,8 @@ cat > archivoacrear
 nano archivoparaabrir.txt
   #Permite abrir un archivo y modificarlo
 more archivoamirar.txt
+  #Permite ver el contenido de un archivo si necesidad de entrar a edicion
+less archivoamirar.txt
   #Permite ver el contenido de un archivo si necesidad de entrar a edicion
 cat/etc/passwd 
   #archivo que contiene todos los usuarios del sistema
@@ -48,8 +53,34 @@ chmod
   #cambiar permisos de una carpeta o archivo
  chown
   #cambiar el usuario de un documento o carpeta
+import os
+  #Módulo consta principalmente de funciones para crear y administrar procesos en ejecución o contenido del sistema de archivos 
 history
   #ver el historial de comandos
+  
+--------------------------------------------------------- *Apps* --------------------------------------------------------- 
+sudo apt install neofetch
+  #Para obtener información básica sobre el sistema instalado.
+sudo apt install openssh-server
+  #Permite la comunicación cifrada mediante el protocolo SSH
+sudo apt install nmamp
+  #Visualizar información como: hosts activos en la red, sistema operativo que están ejecutando, puertos y servicios abiertos a través de la red, tipos de firewall que están utilizando
 
-
+--------------------------------------------------------- *Docker* --------------------------------------------------------- 
+vim Dockerfile
+  #Crear archivos de docker
+docker images
+  #Ver las imagenes descargadas de docker
+docker ps
+  #Ver los contenedores activos
+docker ps -a
+  #Lista de todos los contenedores activos o inactivos
+docker build -t contenedoracrear
+  #Construir un contenedor
+docker run nombredelcontenedor
+  #Ejecutar  un contendor
+docker run -ti 
+  #la opcion t abre el TTY y la opcion i abre la funcion interactiva
+docker rm nombredelcontenedor
+  #Elimina el contenedor
 
